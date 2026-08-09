@@ -1,0 +1,4 @@
+shortener
+urls.db
+*.o
+*.out

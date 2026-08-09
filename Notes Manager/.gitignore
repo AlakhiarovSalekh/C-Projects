@@ -1,0 +1,9 @@
+# executable
+notes
+
+# database
+notes.db
+
+# object files
+*.o
+*.obj

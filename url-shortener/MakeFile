@@ -1,0 +1,19 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -O2
+LIBS = -lsqlite3
+
+TARGET = shortener
+SRC = shortener.c
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) $(LIBS)
+
+clean:
+	rm -f $(TARGET) urls.db
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: all clean run
