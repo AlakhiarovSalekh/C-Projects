@@ -1,4 +1,4 @@
-# C Programming Projects Collection
+# C Programming Projects — Networking, Systems, Compilers & Cryptography
 
 [![C](https://img.shields.io/badge/C-Programming-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![License](https://img.shields.io/github/license/AlakhiarovSalekh/C-Projects)](LICENSE)
