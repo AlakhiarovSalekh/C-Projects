@@ -86,6 +86,14 @@ A terminal-based game where you control a ship to avoid falling asteroids:
 - Real-time gameplay mechanics
 - Simple collision detection
 
+### Additional Projects
+
+- [FTP](ftp/)
+- [TCP Server](tcp-server/)
+- [URL Shortener](url-shortener/)
+- [Notes Manager](Notes%20Manager/)
+- [QR Generator](QR%20Generator/)
+
 ## Getting Started
 
 Each project in this repository is designed to be self-contained and includes:
