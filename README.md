@@ -1,37 +1,16 @@
-
-<div align="right">
-  <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id">Bahasa Indonesia</a>
-      </div>
-    </div>
-  </details>
-</div>
-
 # C Programming Projects Collection
 
+[![C](https://img.shields.io/badge/C-Programming-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License](https://img.shields.io/github/license/AlakhiarovSalekh/C-Projects)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/AlakhiarovSalekh/C-Projects?style=social)](https://github.com/AlakhiarovSalekh/C-Projects/stargazers)
+
+Hands-on C projects covering algorithms, networking, systems programming, compilers, cryptography, games, and command-line tools.
+
 A collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.
+
+## Why this repository
+
+Use this collection to move from small C programs into lower-level topics such as sockets, protocol handling, parsing, hashing, and systems-oriented command-line tools. Each project is kept in its own directory so you can explore them independently.
 
 ## Projects Overview
 
@@ -73,7 +52,7 @@ A custom ping utility that covers:
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
 A classic game implementation that teaches:
 - Multiplayer game server 
--Socket programming
+- Socket programming
 - Game logic
 - User input handling
 
@@ -156,8 +135,17 @@ Feel free to:
 
 ## License
 
-This project is open source and available for learning purposes.
+See the repository [LICENSE](LICENSE) for licensing terms.
 
 ## Note
 
 Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. 
+
+
+## Support the project
+
+If this collection helps you learn C or systems programming, consider starring the repository. Bug reports, documentation improvements, and focused pull requests are welcome.
+
+## Author
+
+**Salekh Alakhiarov** · [GitHub](https://github.com/AlakhiarovSalekh)
