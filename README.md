@@ -154,6 +154,12 @@ Some network-related projects (Port Scanner, Ping) require root/administrator pr
 
 If this collection helps you learn C or systems programming, consider starring the repository. Bug reports, documentation improvements, and focused pull requests are welcome.
 
+## More Projects by Salekh
+
+- [C++ Projects](https://github.com/AlakhiarovSalekh/Cpp-Projects) — programming fundamentals through advanced data structures and algorithms.
+- [ATM System C++](https://github.com/AlakhiarovSalekh/ATM-System-CPP) — procedural and object-oriented banking/ATM implementations.
+- [Banking System C++ CLI](https://github.com/AlakhiarovSalekh/BANKING-SYSTEM-CPP-CLI) — terminal banking application with OpenSSL-based PIN hashing.
+
 ## Author
 
 **Salekh Alakhiarov** · [GitHub](https://github.com/AlakhiarovSalekh)
