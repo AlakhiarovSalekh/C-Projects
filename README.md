@@ -15,69 +15,88 @@ Use this collection to move from small C programs into lower-level topics such a
 ## Projects Overview
 
 ### 1. [SHA-512 Implementation](SHA-512/)
+
 A cryptographic hash function implementation that demonstrates:
+
 - Bit manipulation
 - Complex algorithms
 - Memory management
 - File I/O operations
 
 ### 2. [HTTP Server](http-server/)
+
 A basic HTTP server implementation that covers:
+
 - Socket programming
 - HTTP protocol basics
 - File serving
 - Network communication
 
 ### 3. [UDP Server-Client](udp-server-client/)
+
 A simple UDP-based communication system that teaches:
+
 - UDP socket programming
 - Client-server architecture
 - Network protocols
 - Message exchange
 
 ### 4. [Port Scanner](port-scanner/)
+
 A network diagnostic tool that demonstrates:
+
 - TCP socket programming
 - Network scanning techniques
 - Error handling
 - Command-line argument parsing
 
 ### 5. [Ping Implementation](ping/)
+
 A custom ping utility that covers:
+
 - ICMP protocol
 - Raw socket programming
 - Network diagnostics
 - Time measurement
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
+
 A classic game implementation that teaches:
+
 - Multiplayer game server 
 - Socket programming
 - Game logic
 - User input handling
 
 ### 7. [Chat System](chat-system/)
+
 A real-time chat application that demonstrates:
+
 - TCP socket programming
 - Multi-threading
 - Real-time communication
 - Client-server architecture
 
 ### 8. [Lexical Analyzer](lexical-analyser/)
+
 A simple compiler front-end component that demonstrates:
+
 - Tokenization of source code
 - Parsing techniques
 - Compiler design principles
 - String manipulation
 
 ### 9. [Arithmetic Compiler](arithmetic-compiler/)
+
 A simple compiler that takes arithmetic expressions as input and generates assembly-like code:
+
 - Lexical analysis (tokenization)
 - Parsing and evaluation of expressions
 - Assembly code generation
 - Compiler construction fundamentals
 
 ### 10. [Asteroid Game](asteroid-game/)
+
 A terminal-based game where you control a ship to avoid falling asteroids:
 
 - Game state management
@@ -97,16 +116,38 @@ A terminal-based game where you control a ship to avoid falling asteroids:
 ## Getting Started
 
 Each project in this repository is designed to be self-contained and includes:
+
 - Source code
 - Makefile or CMake configuration
 - README with build and usage instructions
 - Implementation details
 
 To get started with any project:
+
 1. Navigate to the project directory
 2. Read the project's README.md
 3. Follow the build instructions
 4. Run the program as described
+
+## Build and Run Instructions
+
+| Project             | Build                                            | Run                                                                      | Description                                                                                               |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| arithmetic-compiler | `mkdir build && cd build && cmake .. && make`    | `./ArithmeticCompiler`                                                   |                                                                                                           |
+| asteroid-game       | `make`                                           | `./asteroid_game`                                                        | Terminal-based game. Use 'a' and 'd' to move.                                                             |
+| chat-system         | `make`                                           | `./server`(Terminal 1),`./client` (Terminal 2)                           | Run in two separate terminals. Server listens on port 8888.                                               |
+| ftp                 | `make`                                           | `make run-server` (Terminal 1), `make run-client` (Terminal 2)           | Default port: 8080. Requires two terminals.                                                               |
+| http-server         | `make`                                           | `make run`                                                               | Serves `index.html` on port 8080.                                                                         |
+| lexical-analyser    | `make`                                           | `make run`                                                               | Hardcoded input in `lexer.c`; modify to test other expressions.                                           |
+| Notes Manager       | `make`                                           | `./notes help` (or `./notes <command>`)                                  | Requires SQLite3 dev libs. Folder name has a space. Auto-generates `notes.db`.                            |
+| ping                | `make`                                           | `sudo ./myping <ip_host>`                                                | Requires root/sudo for raw sockets. Example: `sudo ./myping 127.0.0.1`                                    |
+| port-scanner        | `make`                                           | `sudo ./scanner <target_ip> <start_port> <end_port>`                     | Requires root/sudo (raw sockets). Example: `sudo ./scanner 192.168.1.1 1 1024`.                           |
+| QR Generator        | `make` (or `make install-deps && make`)          | `./bin/qr_gen "<url>" [output.png]`                                      | Requires `libqrencode` and `libpng`. Folder name has a space.                                             |
+| SHA-512             | `make`                                           | `./sha512`                                                               |                                                                                                           |
+| tcp-server          | `gcc server.c -o server`                         | `./server`                                                               | Listens on port 8080. Test via browser or `curl http://localhost:8080`                                    |
+| tic-tac-toe         | `mkdir -p build && cd build && cmake .. && make` | `./server 8080` (Terminal 1), `./client localhost 8080` (Terminal 2 & 3) | Requires 3 terminals: 1 server + 2 clients. Port 8080.                                                    |
+| udp-server-client   | `make`                                           | `/server <port>` (Terminal 1), `./client <port>` (Terminal 2)            | Requires 2 terminals. User must specify port. Example: `./server 8888` & `./client 8888`                  |
+| url-shortener       | `make -f MakeFile`                               | `make run` (or `./shortener`)                                            | Requires `libsqlite3-dev`. Creates `urls.db`. Interactive CLI (`shorten <url>`, `expand <code>`, `quit`). |
 
 ## Prerequisites
 
@@ -135,6 +176,7 @@ These projects are arranged in order of increasing complexity:
 ## Contributing
 
 Feel free to:
+
 - Report bugs
 - Suggest improvements
 - Add new features
@@ -148,7 +190,6 @@ See the repository [LICENSE](LICENSE) for licensing terms.
 ## Note
 
 Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. 
-
 
 ## Support the project
 
